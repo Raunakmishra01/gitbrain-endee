@@ -43,22 +43,6 @@ docker-compose exec gitbrain python init_db.py
 
 ---
 
-## Screenshots
-
-### Web Search Interface
-
-![GitBrain Search Interface](output_images/gitbrain-search-interface.png)
-
-### Search Results
-
-![GitBrain Search Results](output_images/gitbrain-search-results-clear-command.png)
-
-### Terminal Monitor
-
-![GitBrain Terminal Monitor](output_images/gitbrain-terminal-monitor-startup.png)
-
----
-
 ## Local Development
 
 ### Prerequisites
