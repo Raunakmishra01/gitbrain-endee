@@ -5,7 +5,6 @@ AI-powered developer assistant using semantic vector search with Endee database.
 ---
 
 ## Quick Deploy with Docker
-
 ```bash
 # Start everything
 docker-compose up -d
@@ -28,6 +27,22 @@ docker-compose exec gitbrain python init_db.py
 
 ---
 
+## Screenshots
+
+### Web Search Interface
+
+![GitBrain Search Interface](output%20images/gitbrain-search-interface.png)
+
+### Search Results
+
+![GitBrain Search Results](output%20images/gitbrain-search-results-clear-command.png)
+
+### Terminal Monitor
+
+![GitBrain Terminal Monitor](output%20images/gitbrain-terminal-monitor-startup.png)
+
+---
+
 ## Local Development
 
 ### Prerequisites
@@ -36,7 +51,6 @@ docker-compose exec gitbrain python init_db.py
 - Endee running on port 8081
 
 ### Setup
-
 ```bash
 # Install dependencies
 pip install -r requirements.txt
@@ -55,7 +69,6 @@ python web_app.py
 ---
 
 ## Project Structure
-
 ```
 gitbrain/
 ├── web_app.py           # Flask web interface
@@ -84,7 +97,6 @@ gitbrain/
 ## Configuration
 
 Edit `config.py` or set environment variables:
-
 ```python
 ENDEE_BASE_URL = "http://localhost:8081/api/v1"
 INDEX_NAME = "gitbrain"
@@ -103,13 +115,11 @@ WEB_PORT = 5000
 4. **Stats**: View system info
 
 ### Terminal Agent
-
 ```bash
 python agent.py
 ```
 
 ### Terminal Monitor
-
 ```bash
 python terminal_monitor.py
 ```
@@ -117,7 +127,6 @@ python terminal_monitor.py
 ---
 
 ## Architecture
-
 ```
 Query → Sentence Transformer (384D) → Endee Vector DB → Results
 ```
@@ -127,4 +136,3 @@ Query → Sentence Transformer (384D) → Endee Vector DB → Results
 - Database: Endee (cosine similarity)
 - Backend: Flask
 - Frontend: Vanilla JS
-
