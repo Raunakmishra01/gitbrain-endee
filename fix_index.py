@@ -22,7 +22,7 @@ def main():
         space_type="cosine",
         precision="float16"
     )
-    print("✅ Created fresh index:", INDEX_NAME)
+    print("Created fresh index:", INDEX_NAME)
 
 if __name__ == "__main__":
     main()
