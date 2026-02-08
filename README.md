@@ -31,15 +31,31 @@ docker-compose exec gitbrain python init_db.py
 
 ### Web Search Interface
 
-![GitBrain Search Interface](output%20images/gitbrain-search-interface.png)
+![GitBrain Search Interface](output_images/gitbrain-search-interface.png)
 
 ### Search Results
 
-![GitBrain Search Results](output%20images/gitbrain-search-results-clear-command.png)
+![GitBrain Search Results](output_images/gitbrain-search-results-clear-command.png)
 
 ### Terminal Monitor
 
-![GitBrain Terminal Monitor](output%20images/gitbrain-terminal-monitor-startup.png)
+![GitBrain Terminal Monitor](output_images/gitbrain-terminal-monitor-startup.png)
+
+---
+
+## Screenshots
+
+### Web Search Interface
+
+![GitBrain Search Interface](output_images/gitbrain-search-interface.png)
+
+### Search Results
+
+![GitBrain Search Results](output_images/gitbrain-search-results-clear-command.png)
+
+### Terminal Monitor
+
+![GitBrain Terminal Monitor](output_images/gitbrain-terminal-monitor-startup.png)
 
 ---
 
